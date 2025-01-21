@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+}
+
+.shape{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+#rhombus{
+    rotate: 45deg;
+    margin-top: 50px;
+    height: 170px;
+    width: 170px;
+    translate: 30px;
+}
+#rhombus h1{
+    rotate: -45deg;
+}
+
+#square:hover{
+    background-color: aquamarine;
+}
+#circle1:hover{
+    background-color: blueviolet;
+}
+#rhombus:hover{
+    background-color: cadetblue;
+}
+
+#c1:hover{
+    background-color: rgb(164, 102, 1);
+}
+#c2:hover{
+    background-color: rgb(229, 167, 68);
+}
+#c3:hover{
+    background-color: rgb(190, 150, 87);
+}
+#c4:hover{
+    background-color: rgb(218, 160, 67);
+}
+#c5:hover{
+    background-color:rgb(249, 204, 148);
+}
+#c6:hover{
+    background-color: rgb(249, 234, 210);
+}
