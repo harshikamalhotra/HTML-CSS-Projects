@@ -18,38 +18,180 @@ body {
 
 #header {
     width: 100%;
-    height: 10%;
+    height: 13%;
     position: fixed;
     display: flex;
     align-items: center;
-    background-color: bisque;
+    justify-content: space-around;
+    background-color: white;
 }
-#logo{
+
+#logo {
     height: 70%;
-    margin: 10px;
+
 }
-#logo img{
+
+#logo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .navigation {
-    color: blue;
-    margin: 10px;
+    color: rgb(0, 0, 92);
     display: flex;
 }
 
+.navigation:hover {
+    color: rgb(0, 176, 211);
+}
+
+#contactDetails {
+
+    font-weight: lighter;
+}
+
+.icon {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: lightblue;
+}
+
+#login {
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+
+#login:hover {
+    background-color: lightblue;
+}
+
+#try {
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#try:hover {
+    background-color: rgb(0, 51, 0);
+}
+
 #fakeHeader {
-    height: 10%;
+    height: 13%;
     width: 100%;
 }
 
 #page1 {
-    height: 90%;
+    height: 87%;
     width: 100%;
+
+}
+
+#strip {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(0, 0, 131);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#strip u {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+#content {
+    width: 100%;
+    height: 76%;
+    background-image: url("https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-sm-bg.jpg?resize=768,1076");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1 {
+    height: 100%;
+    width: 47%;
+}
+
+#box2 {
+    height: 100%;
+    width: 47%;
+}
+
+#heading {
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 131);
+}
+
+#heading h1 {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+#box1 h1 {
+    font-weight: 600;
+    color: rgb(0, 0, 131);
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+#box1 p {
+    font-size: x-large;
+    margin: 10px;
+    font-weight: lighter;
+    margin: 30px 10px;
+}
+
+#buttons {
+    text-align: center;
+    display: flex;
+}
+
+#button1 {
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(1, 118, 211);
+    border-radius: 4px;
+}
+
+#button1:hover {
+    background-color: rgb(0, 0, 131);
+}
+
+#button2:hover {
+    background-color: rgb(185, 228, 242);
+    color: rgb(0, 0, 131);
+    border-color: rgb(0, 0, 131);
+}
+
+#button2 {
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(1, 118, 211);
+    border: 1px solid rgb(1, 118, 211);
+    border-radius: 4px;
 }
 
 #page2 {
-    height: 90%;
+    height: 87%;
     width: 100%;
+    background-color: lightyellow;
 }
