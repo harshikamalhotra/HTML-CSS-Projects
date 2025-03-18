@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;<style> */
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
 
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    background-color: black;
 }
 
 .main {
@@ -10,14 +18,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
@@ -45,7 +53,7 @@ nav button {
 }
 
 .hero {
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,19 +62,56 @@ nav button {
     position: relative;
     font-family: 'Martel Sans';
     gap: 23px;
+    padding: 0 30px;
 }
 
-.hero :first-child {
+.hero> :first-child {
+    font-family: 'Poppins', 'sans-serif';
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
 }
 
-.hero :nth-child(2) {
+.hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
-.hero :nth-child(3) {
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
 }

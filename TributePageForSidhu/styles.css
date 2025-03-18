@@ -1,0 +1,36 @@
+.container {
+    max-width: 100vh;
+    background-color: firebrick;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.image {
+    position: absolute;
+}
+
+.img {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#img1:hover {
+    width: 270px;
+    border: 2px solid firebrick;
+    z-index: 2;
+}
+
+#img2:hover {
+    width: 270px;
+    border: 2px solid firebrick;
+    z-index: 4;
+}
+
+#img3:hover {
+    width: 270px;
+    border: 2px solid firebrick;
+    z-index: 2;
+}
